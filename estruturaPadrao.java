@@ -1,3 +1,5 @@
+/*
+
 import java.util.Scanner;
 
 public class estruturaPadrao {
@@ -12,3 +14,5 @@ public class estruturaPadrao {
 
     }
 }
+
+*/
