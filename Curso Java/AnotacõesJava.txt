@@ -1,0 +1,7 @@
+*Variante = (Tipo) + nome = x
+
+* Tem duas classes no java que distinguem o processamento no 
+start e o processamento durante o game.
+
+*Import é uma classe de aderimento de funções pré 
+selecionadas.
