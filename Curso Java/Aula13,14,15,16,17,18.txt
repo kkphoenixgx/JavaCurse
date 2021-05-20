@@ -76,9 +76,39 @@ mod 55-
 
 funções =
 
-Formatar: toLowerCase() "Transformar para Maiusculo";
- 
- toUpperCase() "Para maiusculo";
-
+-Formatar: 
+toLowerCase() "Transformar para Maiusculo";
+toUpperCase() "Para maiusculo";
 trim() "Tirar os espaços";
 
+-Recortar:
+substring(inicio)  "você seleciona o ponto de inicio e de fim que 
+você quer que a string copie"
+
+substring(inicio, fim) "Igual o de cima mas com um limite"
+
+-Substituir:
+Replace(char, char) "substitui caracteres"
+Replace(string, string)
+
+-Buscar: 
+IndexOf
+LastindexOf
+
+-str.Split("x") "Recortar uma string com base em um separador x 
+e transforma elas em um vetor."
+
+Exemplos:
+
+   Para mudar uma string, você deve criar um novo espaço no disco
+para a  nova string ou alterar o valor da variável anterior com uma
+simples diferença de sintexe. Então para se ter essa variável,
+cria-se uma nova:
+
+string originalString =  "tudo minúsculo";
+string newString = originalString.toUpperCase();
+System.out.println(newString);
+==
+TUDO MINÚSCULO
+
+assim que aplica essas fuções pré-determinadas do JAVA
