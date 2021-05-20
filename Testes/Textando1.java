@@ -7,17 +7,27 @@ public class Textando1 {
         Scanner sc = new Scanner(System.in);
 
         double preco = sc.nextDouble();
+        int calculo1 = 100;
+        boolean olha = preco % 10 == 0;
+        int porcento = 0;
+
+      // código que calcula todos os multipos de 10 e transforma em array
+      // pegar o nomero do array, verificar se o valor está em um array e transofrmar o numero do array em .10
+      // volto quando souber arrays.
+
+      /*
+
+      for()
+
+      do {
+
+         calculo1 * 10
+      }while (olha = true && );
+
+      */
+
         sc.close();
 
-        double porcentagem = 0;
-
-        double desconto = (preco < 200) ? porcentagem + 30 : porcentagem + 0;
-
-        // vou voltar quando eu souber foreath no java ;-;
-
-        double total = (preco * desconto) /100;
-
-        System.out.println(total);
-
     }
+
 }
