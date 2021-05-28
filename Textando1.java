@@ -1,3 +1,5 @@
+/*
+
 import java.util.Scanner;
 
 public class Textando1 {
@@ -24,10 +26,12 @@ public class Textando1 {
          calculo1 * 10
       }while (olha = true && );
 
-      */
+      
 
         sc.close();
 
     }
 
 }
+
+*/
