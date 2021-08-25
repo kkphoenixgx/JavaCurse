@@ -53,4 +53,4 @@ int tamanho = (meu pau > 30cm) ? System.out.println("Claro") : System.out.printl
 ex 2:
 
 int preco; 
-int desconto = (preco < 200) ? desconto = desconto/1 * 30/100 
+int desconto = (preco < 200) ? desconto = desconto/1 * 30/100)

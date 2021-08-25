@@ -4,12 +4,12 @@ mod 68                                                                          
 Object e to String:
 
 Toda classe do Java é uma subclasse da classe Object. Ou seja, a 
-classe que você tá criando tá dentro de uma classe que se jama
+classe que você tá criando tá dentro de uma classe que se chama
 Objeto, então métodos da classe Objeto podem ser acessados.
 
 Existem alguns ou vários métodos da classe objeto e eles podem
-ser substituidos ou melhorados conforme você queira apenas co-
-locando os métodos com a mesma função e os substituindo.
+ser substituidos ou melhorados conforme você queira, apenas 
+colocando os métodos com a mesma função e os substituindo.
 
 Alguns métodos muito úteis dessa classe object são:
 
