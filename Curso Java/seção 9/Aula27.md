@@ -1,15 +1,18 @@
-Explicação:
-    Dei um tempo com o java para fazer javaScriptt para
-    focar no mercado de trabalho, mas a real é 
-    que eu tenho muito tempo para melhorar em todas
-    as áreas de ensino e me formar um dev completo 
-    e por via de dúvida, eu tô usando o 
-    Visual Studio Code para escrever os textos também
-    então meu modo de escrita deve mudar.
-============================================================
-mod 76 -Java 25/08/21
+<h3>Explicação:</h3>
+Dei um tempo com o java para fazer javaScript para
+focar no mercado de trabalho, mas a real é 
+que eu tenho muito tempo para melhorar em todas
+as áreas de ensino e me formar um dev completo 
+e por via de dúvida, eu tô usando o 
+Visual Studio Code para escrever os textos também
+então meu modo de escrita deve mudar.<br>
 
--Construtores
+=================================================
+
+mod 76<br> 
+**Java 25/08/21**
+
+<h2>Construtores</h2>
 
 Construtor é uma operação especial da classe que se faz no
 momento da instanciação do objeto.
@@ -17,7 +20,7 @@ momento da instanciação do objeto.
 para usar um construtor em java, deve-se escrever uma função
 publica com o nome da classe:
 
-ex:
+~~~java
     public class Carros{
 
         public int QuantityinStock;
@@ -38,3 +41,4 @@ ex:
 
         _métodos gerais_
     }
+~~~
