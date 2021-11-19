@@ -106,24 +106,31 @@ Esse é um assunto um pouco extenso e para quem não é acostumado com linguagen
 
 ## Classes
 
-* Exemplo de classes em java
+### Exemplo de classes em java
 
-    ~~~java
-    package Classes;
-    public class Employee {
+  ~~~java
+  package Classes;
+  public class Employee {
 
-        public String name;
-        public double grossSalary;
-        public double tax;
-        public double percentage;
-        
-        public double netSalary(){
-            return grossSalary - tax;
-        }
+      public String name;
+      public double grossSalary;
+      public double tax;
+      public double percentage;
+      
+      public double netSalary(){
+          return grossSalary - tax;
+      }
 
-        public double IncrasseSalary(){
-            double salarioComTaxa =  grossSalary - tax;
-            return salarioComTaxa + (percentage * salarioComTaxa )/ 100;
-        }
-    }
-    ~~~
+      public double IncrasseSalary(){
+          double salarioComTaxa =  grossSalary - tax;
+          return salarioComTaxa + (percentage * salarioComTaxa )/ 100;
+      }
+  }
+  ~~~
+
+### Modificadores de acesso
+
+* **public** = todas as classes podem acessa-ló.
+* **private** = só pode ser acessado na própria classe.
+* **protected** = só pode ser usado no mesmo pacote.
+* **(nada)** = o membro só pode ser acessado pelas classes no mesmo pacote.

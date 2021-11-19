@@ -42,19 +42,21 @@ public class Program {
 		showResult(higher);
 		sc.close();
 	}
-public static int max(int x, int y, int z) {
 
-	int aux;
-	if (x > y && x > z) {
-		aux = x;
-	} else if (y > z) {
-		aux = y;
-	} else {
-		aux = z;
+	public static int max(int x, int y, int z) {
+
+		int aux;
+		if (x > y && x > z) {
+			aux = x;
+		} else if (y > z) {
+			aux = y;
+		} else {
+			aux = z;
+		}
+			return aux;
 	}
-		return aux;
-	}
+
 	public static void showResult(int value) {
-	System.out.println("Higher = " + value);
+		System.out.println("Higher = " + value);
 	}
 }
