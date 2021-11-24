@@ -134,3 +134,73 @@ Esse é um assunto um pouco extenso e para quem não é acostumado com linguagen
 * **private** = só pode ser acessado na própria classe.
 * **protected** = só pode ser usado no mesmo pacote.
 * **(nada)** = o membro só pode ser acessado pelas classes no mesmo pacote.
+
+### Constructor
+
+Em java o construtor da classe x é uma function chamada x.
+
+~~~java
+public class Carros{
+
+  public int QuantityInStock;
+  public double price;
+
+  // Dado pelo construtor (variáveis abstratas)
+  public String nomeDoCarro;
+  public int quantity;
+
+  // Esse é o construtor
+  public Carros(String nomeDoCarro, int quantity){
+    nomeDoCarro = this.nomeDoCarro;
+    quantity = this.quantity;
+  }   
+
+  // _métodos gerais_:
+}
+~~~
+
+### Sobrecarga
+
+Porém a sobrecarga em java é bem mais complicada para fazer, você precisa setar um construtor para cada tipo de variável opcional.
+
+~~~java
+class Product{
+
+  public String name;
+  private float price;
+  private int quantity;
+
+  public Product(String name, double price, int quantity){
+      this.name = name;
+      this.price = price;
+      this.quantity = quantity;
+  }
+  public Product(double price, int quantity){
+      this.name = name;
+      this.price = price;
+      //final quantity = 0;
+  }
+}
+~~~
+
+### Getters and Setters
+
+* Getters:
+
+~~~java
+public y getX(return X){
+   return X
+} 
+~~~
+
+sendo X o nome do atributo e y o tipo do dado do atributo.  
+
+* Setters:
+
+~~~java
+public void setX(y X){ 
+  this.X = X 
+} 
+~~~
+
+Sendo X o nome da variavel e y o tipo do dado.  

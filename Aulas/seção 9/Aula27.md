@@ -33,6 +33,6 @@ publica com o nome da classe:
 
         }   
 
-        _métodos gerais_
+        // _métodos gerais_
     }
 ~~~
