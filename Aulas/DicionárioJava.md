@@ -23,6 +23,16 @@
 
 ## Arrays
 
+* Criando um array
+
+~~~java
+double[] NomeDoArray = new double[arrayLimit];
+~~~
+
+* Push:
+
+
+
 ## Date
 
 ## Variáveis
@@ -103,6 +113,12 @@
 ## Funções
 
 Esse é um assunto um pouco extenso e para quem não é acostumado com linguagens fortemente tipadas, como eu, talvez se perca, então segue o link do meu arquivo txt:
+
+~~~java
+public static functionName(){
+  
+}
+~~~
 
 ## Classes
 
