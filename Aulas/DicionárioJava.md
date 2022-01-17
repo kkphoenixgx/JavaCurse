@@ -23,15 +23,30 @@
 
 ## Arrays
 
-* Criando um array
+* **Criando um array**
 
-~~~java
-double[] NomeDoArray = new double[arrayLimit];
-~~~
+  ~~~java
+  double[] NomeDoArray = new double[arrayLimit];
+  ~~~
 
-* Push:
+* **Collections(Arrays de tipo referencia)**
 
+  ~~~java
 
+  int n = sc.nextInt()
+  Product[] vect = new Product[n] 
+
+  for (int x; i<n; i++){
+
+    sc.nextLine();
+    String name = new sc.nextLine();
+    double price  new sc.nextDouble();
+
+    vect[i] = new Product(name, price);
+  }
+
+  sc.close
+  ~~~
 
 ## Date
 
