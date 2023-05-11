@@ -1,10 +1,11 @@
 package Classes;
 
 // Eu sei que um registro de um banco e um código real de um banco não seria assim, mas estou fazendo assim porque o curso pediu
-public class ClientAccount {
+
+public class Banco {
     
     private float Saldo = 0;
-    private final number withDrawTax = 5;
+    private final int withDrawTax = 5;
 
     public String nomeDoTitular;
     private int numeroDaConta;
@@ -22,6 +23,22 @@ public class ClientAccount {
 
         this.deposito(depositoInicial);
     }
+
+    //---Metodos---
+
+    public float deposito(float valor){
+        
+        this.Saldo = this.Saldo + valor;
+        
+        return Saldo;
+    }
+    public float Saque(float valor){
+        
+        this.Saldo = this.Saldo - valor - this.withDrawTax;
+        
+        return Saldo;
+    }
+
 
     //-------Getters----------
         public float getDepositoInicial(){
@@ -42,20 +59,4 @@ public class ClientAccount {
             this.numeroDaConta = numeroDaConta;
         }
 
-    //---Metodos---
-
-    public float deposito(float valor){
-        
-        this.Saldo = this.Saldo + valor;
-        
-        return Saldo;
-    }
-    public float Saque(float valor){
-        
-        this.Saldo = this.Saldo - valor - this.withDrawTax;
-        
-        return Saldo;
-    }
-
-    //
 }

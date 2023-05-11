@@ -7,22 +7,21 @@ public class Exercicio8 {
         Scanner sc = new Scanner(System.in);
 
         double Salario = sc.nextDouble();
+        double imposto = 0;
 
         sc.close();
-
-        double imposto;
 
         if (Salario <= 2000.00){
             imposto = 0.0;
         }
         else if(Salario <= 3000.00){
-            imposto = (salario - 2000.0) * 0.08;
+            imposto = (Salario - 2000.0) * 0.08;
         }
         else if( Salario <= 4500.00){
-            imposto = (salario - 3000.0) * 0.18 + 1000.0 * 0.08;
+            imposto = (Salario - 3000.0) * 0.18 + 1000.0 * 0.08;
         }
         else if(Salario <= 4500.00){
-            imposto = (salario - 4500.0) * 0.28 + 1500.0 * 0.18 + 1000.0 * 0.08;
+            imposto = (Salario - 4500.0) * 0.28 + 1500.0 * 0.18 + 1000.0 * 0.08;
         }
 
 

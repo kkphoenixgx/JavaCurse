@@ -14,13 +14,16 @@ public class Quartos {
 
         String rooms[] = new String[10];
 
-        System.out.println(rooms[roomNumber]);
-        if(rooms[roomNumber] != null) return;
+        if(rooms[roomNumber] != null) {
+            System.out.println("The room is full");
+            System.exit(0);
+        };
 
-        String user[] = new String[3];
-        String stringRoomNumber = NumberToStringUtil.toString(roomNumber);
+        // !TODO: Not Finished
+        // String user[] = new String[3];
+        // String stringRoomNumber = NumberToStringUtil.toString(roomNumber);
         
-        rooms[roomNumber] = user[];
+        // rooms[roomNumber] = user;
 
     }
 

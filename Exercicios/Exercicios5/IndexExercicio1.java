@@ -1,11 +1,10 @@
-import Classes.ClientAccount;
+import Classes.Banco;
 import java.util.Scanner;
 
 public class IndexExercicio1{
 
     public static void main(String[] args){
         
-        ClientAccount Client;
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the account number:");
@@ -24,7 +23,7 @@ public class IndexExercicio1{
             System.out.println("Enter the initial deposit (with .):");
             float initialDeposit = sc.nextFloat();
             sc.nextLine();
-            Client = new Banco(accountNumber, accountHolder, initialDeposit);
+            Banco Client = new Banco(accountNumber, accountHolder, initialDeposit);
 
             System.out.println("Account:" + Client.getNumeroDaConta() + "," + " Holder" + Client.nomeDoTitular + "," + " Balance: $ " + Client.getSaldo());
             
@@ -43,7 +42,7 @@ public class IndexExercicio1{
 
         if(justACheck == "n" || justACheck == "N"){
             // Eu sei que não tem sentido mas eu preciso fazer assim para fazer igual tá pedindo
-            Client = new Banco(accountNumber, accountHolder);
+            Banco Client = new Banco(accountNumber, accountHolder);
             System.out.println("Account:" + Client.getNumeroDaConta() + "," + " Holder" + Client.nomeDoTitular + "," + " Balance: $ " + Client.getSaldo());
         
             // deposit
