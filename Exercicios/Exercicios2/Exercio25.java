@@ -1,3 +1,4 @@
+package Exercicios2;
 import java.util.Scanner;
 
 public class Exercio25 {
@@ -6,10 +7,8 @@ public class Exercio25 {
         
         Scanner sc = new Scanner(System.in);
 
-        int codigo1 = sc.nextInt();
         int numeroDepecas1 = sc.nextInt();
         double ValorDaPeça1 = sc.nextDouble();
-        int codigo2 = sc.nextInt();
         int numeroDepecas2 = sc.nextInt();
         double ValorDaPeça2 = sc.nextDouble();
         sc.close();

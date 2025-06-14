@@ -1,6 +1,4 @@
-/**
-Exercicio aula 1 de prgramação java
- */
+package Exercicios2;
 
 
 public class exercicio1 {
